@@ -1,1 +1,43 @@
-
+__________________
+*REQUEST HEADERS*
+__________________
+User-Agent: PostmanRuntime/7.26.10
+  - // Allows a characteristic string that allows network protocol peers to identify the Operating System and Browser of the web-server
+Accept: */*
+  - // Advertises which content types, expressed as MIME types, the client is able to understand.
+Postman-Token: ed4bca9e-9d5b-4957-95b5-9b0e00560501
+  - // Temporary token that tells the host that you have obtained user approval to authenticate; this one specific to postman.
+Host: www.googleapis.com
+  - // Who/where the reqest is sent to.
+Accept-Encoding: gzip, deflate, br
+  - // Advertises which content encoding, usually a compression algorithm, the client is able to understand
+Connection: keep-alive
+  - // General type header that allows the sender or client to specify options that are desired for that particular connection.
+  
+__________________
+*RESPONSE HEADERS*
+__________________
+Content-Type: application/json; charset=UTF-8
+  - // Used to indicate the media type of the resource
+Vary: Origin
+  - // Determines how to match future request headers to decide whether a cached response can be used rather than requesting a fresh one from the origin server.
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+  - //  Used to compress the media-type
+Date: Sun, 31 Jan 2021 21:53:32 GMT
+  - // Date of the response.
+Server: ESF
+  - // Type of server.
+Cache-Control: private
+  - // Holds directives (instructions) for caching in both requests and responses
+X-XSS-Protection: 0
+  - // Feature of Internet Explorer, Chrome and Safari that stops pages from loading when they detect reflected cross-site scripting (XSS) attacks
+X-Frame-Options: SAMEORIGIN
+  - // Used to indicate whether or not a browser should be allowed to render a page in a <frame> , <iframe> , <embed> or <object> .
+X-Content-Type-Options: nosniff
+  - // Marker used by the server to indicate that the MIME types advertised in the Content-Type headers should not be changed and be followed. 
+Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+  - // Advertises alternative services through which the same resource can be reached.
+Transfer-Encoding: chunked
+  - // Specifies the form of encoding used to safely transfer the payload body to the user
